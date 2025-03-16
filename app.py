@@ -215,7 +215,7 @@ def dashboard():
         <h1>🏆 FRONT MAN: {session["user"]}</h1>
         <p>🎭 You’ve taken control!</p>
         <img src="{url_for('static', filename='gg.gif')}" alt="Squid Game Victory">
-        <p class="flag">🚩 FLAG: CTF{{squid_game_hacked}} 🚩</p>
+        <p class="flag">🚩 FLAG: CyberX{{$quid_g4me_h4cked}} 🚩</p>
         <a href='/logout'>[ Logout ]</a>
     </body>
     </html>
